@@ -1,0 +1,35 @@
+{
+  "run_name": "20250811_100812_lstm_stem_dims_16_lstm_hidd_dim_64_lstm_layers_2_head_dims_1",
+  "epochs": 100,
+  "lr": 0.001,
+  "batch_size": 16,
+  "seed": 1001,
+  "patience": 5,
+  "device": "cuda",
+  "min_weight": 0.001,
+  "components": 40,
+  "volatility": 0.14,
+  "utility": 10.0,
+  "lc_utility": 10.0,
+  "lc_components": 5.5,
+  "lc_volatility": 0.0,
+  "lc_min_weight": 0.0,
+  "lookback": 30,
+  "holding_period": 5,
+  "scheduler_type": "plateau",
+  "scaler": true,
+  "input_size": 45,
+  "stem_dims": [
+    16
+  ],
+  "stem_dropout": 0.2,
+  "lstm_hidden_dim": 64,
+  "lstm_layers": 2,
+  "lstm_dropout": 0.1,
+  "head_dims": [
+    1
+  ],
+  "head_dropout": 0.1,
+  "activation_name": "gelu",
+  "model": "bidirectional_lstm"
+}

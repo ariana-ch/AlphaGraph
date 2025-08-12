@@ -1,0 +1,2 @@
+Annualised Sharpe,Average Annualised Return,Average Components,Min Weight,Max Drawdown,Calmar Ratio,Loss: Utility Target,cardinality_target_penalty,Loss: Vol Target,Loss: Min Weight
+2.0588934421539307,0.8672707676887512,243.25,1.8035573035035668e-11,-0.8561919331550598,-inf,"tensor(13564.4805, device='cuda:0', grad_fn=<DivBackward0>)","tensor(51904.2500, device='cuda:0', grad_fn=<DivBackward0>)","tensor(0., device='cuda:0', grad_fn=<DivBackward0>)","tensor(0., device='cuda:0', grad_fn=<DivBackward0>)"
